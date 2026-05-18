@@ -5282,18 +5282,20 @@ img { background-color: #ffffff !important; }
 
 /* ---------- 1. HEADER BRAND TEXT (very slight size bump) ---------- */
 .logo {
-  font-size: clamp(15px, 1.6vw, 19px) !important;
-  letter-spacing: 0.05em !important;
+  font-size: clamp(16px, 1.8vw, 21px) !important;
+letter-spacing: 0.045em !important;
 }
+
 @media (max-width: 520px) {
   .logo {
-    font-size: 13.5px !important;
-    letter-spacing: 0.035em !important;
+    font-size: 15px !important;
+    letter-spacing: 0.03em !important;
   }
 }
+
 @media (max-width: 380px) {
   .logo {
-    font-size: 12.5px !important;
+    font-size: 14px !important;
   }
 }
 
