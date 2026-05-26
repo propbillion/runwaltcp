@@ -3,7 +3,7 @@ document.addEventListener('click', function(e) {
   var el = e.target.closest('a[href*="wa.me"]');
   if (el && typeof gtag === 'function') {
     gtag('event', 'conversion', {
-      'send_to': 'AW-17833027272/jX1dCPit0rEcEMjNubdC'
+      'send_to': 'AW-17833027272/GyWTC26yyJAcEMjNubdC'
     });
   }
 });/* ============================================
