@@ -365,3 +365,17 @@ document.addEventListener('click', function(e) {
     window.addEventListener('resize', onScroll, { passive: true });
   });
 })();
+/* ---------- Privacy Modal ---------- */
+(function () {
+  'use strict';
+  const pm = document.getElementById('privacyModal');
+  if (!pm) return;
+  const openLinks = document.querySelectorAll('[data-open-privacy]');
+  const closeBtn = pm.querySelector('[data-close-privacy]');
+  const open = () => { pm.classList.add('open'); pm.setAttribute('aria-hidden','false'); document.body.style.overflow = 'hidden'; };
+  const close = () => { pm.classList.remove('open'); pm.setAttribute('aria-hidden','true'); document.body.style.overflow = ''; };
+  openLinks.forEach((l) => l.addEventListener('click', (e) => { e.preventDefault(); open(); }));
+  if (closeBtn) closeBtn.addEventListener('click', close);
+  pm.addEventListener('click', (e) => { if (e.target === pm) close(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
+})();
