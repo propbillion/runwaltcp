@@ -258,7 +258,7 @@ button { font-family: inherit; cursor: pointer; }
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 1.25rem;
-  height: 68px;
+  height: 78px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -310,10 +310,7 @@ button { font-family: inherit; cursor: pointer; }
 /* Segmented sticky action bar - Premium glassmorphism with brand tint */
 .action-bar-wrap {
   position: fixed;
-  top: 68px;
-  left: 0; right: 0;
-  z-index: 55;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.88) 0%, rgba(255, 255, 255, 0.78) 100%);
+  top: 78px;
   backdrop-filter: saturate(180%) blur(22px);
   -webkit-backdrop-filter: saturate(180%) blur(22px);
   border-bottom: 1px solid rgba(0, 85, 68, 0.08);
@@ -376,10 +373,10 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 @media (max-width: 768px) {
-  .header-row { height: 60px; padding: 0 1rem; }
+  .header-row { height: 69px; padding: 0 1rem; }
   .logo { font-size: 22px; }
   .header-cta { padding: 0.55rem 1.1rem; font-size: 13px; }
-  .action-bar-wrap { top: 60px; }
+  .action-bar-wrap { top: 69px; }
   .action-bar { padding: 0.4rem 0.5rem; }
   .action-chip { padding: 0.45rem 0.75rem; font-size: 12.5px; }
 }
@@ -2207,7 +2204,7 @@ input:focus-visible {
 /* Subtle ambient shimmer on action bar to hint swipe */
 .action-bar-wrap {
   position: fixed;
-  top: 68px;
+  top: 78px;
   left: 0; right: 0;
   z-index: 55;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.92) 0%, rgba(255, 255, 255, 0.84) 100%);
@@ -5392,20 +5389,20 @@ letter-spacing: 0.045em !important;
   display: block;
   object-fit: contain;
 }
-.logo-img-1 { height: 72px; }
-.logo-img-2 { height: 34px; }
+.logo-img-1 { height: 83px; }
+.logo-img-2 { height: 39px; }
 
 @media (max-width: 768px) {
-  .logo-img-1 { height: 58px; }
-  .logo-img-2 { height: 28px; }
+  .logo-img-1 { height: 67px; }
+  .logo-img-2 { height: 32px; }
 }
 @media (max-width: 520px) {
-  .logo-img-1 { height: 46px; }
-  .logo-img-2 { height: 22px; }
+  .logo-img-1 { height: 53px; }
+  .logo-img-2 { height: 25px; }
 }
 @media (max-width: 380px) {
-  .logo-img-1 { height: 41px; }
-  .logo-img-2 { height: 19px; }
+  .logo-img-1 { height: 47px; }
+  .logo-img-2 { height: 22px; }
 }
 
 /* ---------- Footer logo image (inline beside SINCE 1978) ---------- */
