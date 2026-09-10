@@ -5380,22 +5380,39 @@ letter-spacing: 0.045em !important;
 }
 
 
-/* ============================================
-   LOGO IMAGE — header brand mark (image replaces text)
-   ============================================ */
+/* ---------- Header logo images (dual logo layout) ---------- */
 .logo {
   display: flex !important;
   align-items: center;
+  gap: 0.6rem;
 }
 .logo-img {
-  height: 40px !important;
-  width: auto !important;
+  height: 40px;
+  width: auto;
   display: block;
   object-fit: contain;
 }
+.logo-img-1 { height: 40px; }
+.logo-img-2 { height: 34px; }
+
+@media (max-width: 768px) {
+  .logo-img-1 { height: 32px; }
+  .logo-img-2 { height: 28px; }
+}
 @media (max-width: 520px) {
-  .logo-img { height: 32px !important; }
+  .logo-img-1 { height: 26px; }
+  .logo-img-2 { height: 22px; }
 }
 @media (max-width: 380px) {
-  .logo-img { height: 28px !important; }
+  .logo-img-1 { height: 22px; }
+  .logo-img-2 { height: 19px; }
+}
+
+/* ---------- Footer logo image (above RUNWAL REALTY / SINCE 1978) ---------- */
+.footer-logo-img {
+  height: 48px;
+  width: auto;
+  display: block;
+  margin: 0 auto 0.75rem;
+  object-fit: contain;
 }
