@@ -5392,27 +5392,41 @@ letter-spacing: 0.045em !important;
   display: block;
   object-fit: contain;
 }
-.logo-img-1 { height: 40px; }
+.logo-img-1 { height: 50px; }
 .logo-img-2 { height: 34px; }
 
 @media (max-width: 768px) {
-  .logo-img-1 { height: 32px; }
+  .logo-img-1 { height: 40px; }
   .logo-img-2 { height: 28px; }
 }
 @media (max-width: 520px) {
-  .logo-img-1 { height: 26px; }
+  .logo-img-1 { height: 32px; }
   .logo-img-2 { height: 22px; }
 }
 @media (max-width: 380px) {
-  .logo-img-1 { height: 22px; }
+  .logo-img-1 { height: 28px; }
   .logo-img-2 { height: 19px; }
 }
 
-/* ---------- Footer logo image (above RUNWAL REALTY / SINCE 1978) ---------- */
+/* ---------- Footer logo image (inline beside SINCE 1978) ---------- */
+.footer-brand-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+}
 .footer-logo-img {
-  height: 48px;
+  height: 50px;
   width: auto;
   display: block;
-  margin: 0 auto 0.75rem;
   object-fit: contain;
+}
+@media (max-width: 768px) {
+  .footer-logo-img { height: 40px; }
+}
+@media (max-width: 520px) {
+  .footer-logo-img { height: 32px; }
+}
+@media (max-width: 380px) {
+  .footer-logo-img { height: 28px; }
 }
