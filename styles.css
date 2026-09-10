@@ -5392,19 +5392,19 @@ letter-spacing: 0.045em !important;
   display: block;
   object-fit: contain;
 }
-.logo-img-1 { height: 60px; }
+.logo-img-1 { height: 72px; }
 .logo-img-2 { height: 34px; }
 
 @media (max-width: 768px) {
-  .logo-img-1 { height: 48px; }
+  .logo-img-1 { height: 58px; }
   .logo-img-2 { height: 28px; }
 }
 @media (max-width: 520px) {
-  .logo-img-1 { height: 38px; }
+  .logo-img-1 { height: 46px; }
   .logo-img-2 { height: 22px; }
 }
 @media (max-width: 380px) {
-  .logo-img-1 { height: 34px; }
+  .logo-img-1 { height: 41px; }
   .logo-img-2 { height: 19px; }
 }
 
