@@ -5392,19 +5392,19 @@ letter-spacing: 0.045em !important;
   display: block;
   object-fit: contain;
 }
-.logo-img-1 { height: 50px; }
+.logo-img-1 { height: 60px; }
 .logo-img-2 { height: 34px; }
 
 @media (max-width: 768px) {
-  .logo-img-1 { height: 40px; }
+  .logo-img-1 { height: 48px; }
   .logo-img-2 { height: 28px; }
 }
 @media (max-width: 520px) {
-  .logo-img-1 { height: 32px; }
+  .logo-img-1 { height: 38px; }
   .logo-img-2 { height: 22px; }
 }
 @media (max-width: 380px) {
-  .logo-img-1 { height: 28px; }
+  .logo-img-1 { height: 34px; }
   .logo-img-2 { height: 19px; }
 }
 
@@ -5416,17 +5416,17 @@ letter-spacing: 0.045em !important;
   gap: 0.6rem;
 }
 .footer-logo-img {
-  height: 50px;
+  height: 60px;
   width: auto;
   display: block;
   object-fit: contain;
 }
 @media (max-width: 768px) {
-  .footer-logo-img { height: 40px; }
+  .footer-logo-img { height: 48px; }
 }
 @media (max-width: 520px) {
-  .footer-logo-img { height: 32px; }
+  .footer-logo-img { height: 38px; }
 }
 @media (max-width: 380px) {
-  .footer-logo-img { height: 28px; }
+  .footer-logo-img { height: 34px; }
 }
